@@ -1,16 +1,129 @@
+
+<!DOCTYPE html>
 <html>
+<head>
+    <title>Book Categories</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            min-height: 100vh;
+            padding: 24px 14px;
+            font-family: Arial, sans-serif;
+            background-color: #eaf0f7;
+            border-right: 1px solid #cbd7e4;
+        }
+
+        .heading {
+            padding: 15px 12px;
+            margin-bottom: 20px;
+            background-color: #19365a;
+            border-left: 4px solid #35b3a5;
+        }
+
+        .heading h3 {
+            margin: 0;
+            color: #ffffff;
+            font-size: 15px;
+            letter-spacing: 0.5px;
+        }
+
+        .heading p {
+            color: #c8d7e8;
+            font-size: 11px;
+            margin: 7px 0 0;
+        }
+
+        .category-label {
+            color: #6c7e92;
+            font-size: 11px;
+            font-weight: bold;
+            letter-spacing: 1px;
+            margin: 0 0 12px 5px;
+        }
+
+        a {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 13px 12px;
+            margin-bottom: 9px;
+            background-color: #ffffff;
+            border: 1px solid #d9e3ed;
+            border-radius: 4px;
+            color: #294766;
+            font-size: 15px;
+            font-weight: bold;
+            text-decoration: none;
+            transition: 0.2s;
+        }
+
+        .mark {
+            width: 7px;
+            height: 7px;
+            background-color: #35b3a5;
+            border-radius: 50%;
+            flex-shrink: 0;
+        }
+
+        a:hover {
+            background-color: #19365a;
+            color: #ffffff;
+            border-color: #19365a;
+            padding-left: 16px;
+        }
+
+        a:hover .mark {
+            background-color: #8ce0d6;
+        }
+
+        .footer-note {
+            margin-top: 25px;
+            padding: 13px 10px;
+            border-top: 1px solid #cbd7e4;
+            color: #708197;
+            font-size: 12px;
+            line-height: 1.7;
+        }
+    </style>
+</head>
+
 <body>
-<body bgcolor="sky blue"></body>
-<a href="cse.html" target="f3"><h3>CSE</h3></a>
-<br><br><br><br><br>
 
-<a href="ece.html" target="f3"><h3>ECE</h3></a>
-<br><br><br><br><br>
+    <div class="heading">
+        <h3>BOOK CATEGORIES</h3>
+        <p>Explore your field of study</p>
+    </div>
 
-<a href="eee.html" target="f3"><h3>EEE</h3></a>
-<br><br><br><br><br>
+    <div class="category-label">ENGINEERING BRANCHES</div>
 
-<a href="civil.html" target="f3"><h3>Civil</h3></a>
+    <a href="cse.html" target="f3">
+        <span class="mark"></span>
+        CSE
+    </a>
+
+    <a href="ece.html" target="f3">
+        <span class="mark"></span>
+        ECE
+    </a>
+
+    <a href="eee.html" target="f3">
+        <span class="mark"></span>
+        EEE
+    </a>
+
+    <a href="civil.html" target="f3">
+        <span class="mark"></span>
+        Civil
+    </a>
+
+    <div class="footer-note">
+        Find books and resources for your academic journey.
+    </div>
 
 </body>
 </html>

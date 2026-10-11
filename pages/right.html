@@ -1,18 +1,147 @@
+
+<!DOCTYPE html>
 <html>
-<body bgcolor="pink">
-<p>
-<h2 align="center">
-    <font face="times new roman" color="green">
-        Online book store information
-    </font>
-</h2>
-<h3>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <font face="monotype corsiva" color="blue">
-        This is the online book store maintained by students of pvpsit.
-        It contains book catalogue of various branches like cse,ece,eee,civil
-    </font>
-</h3>
-</p>
+<head>
+    <title>Book Store Information</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 28px;
+            font-family: Arial, sans-serif;
+            background-color: #fbf5e9;
+            color: #414b58;
+        }
+
+        .content {
+            max-width: 850px;
+            margin: 12px auto;
+            padding: 32px 30px;
+            background-color: #ffffff;
+            border: 1px solid #e7ddca;
+            border-top: 4px solid #35b3a5;
+            box-shadow: 0 3px 12px rgba(40, 55, 75, 0.06);
+        }
+
+        .eyebrow {
+            color: #258c82;
+            text-align: center;
+            font-size: 11px;
+            font-weight: bold;
+            letter-spacing: 1.5px;
+            margin-bottom: 13px;
+        }
+
+        h1 {
+            color: #19365a;
+            font-family: Georgia, "Times New Roman", serif;
+            font-size: 28px;
+            text-align: center;
+            line-height: 1.35;
+            margin: 0 0 17px;
+        }
+
+        .accent {
+            width: 58px;
+            height: 3px;
+            background-color: #35b3a5;
+            margin: 0 auto 23px;
+        }
+
+        .intro {
+            max-width: 680px;
+            margin: 0 auto;
+            color: #5b6572;
+            font-size: 15px;
+            line-height: 1.9;
+            text-align: center;
+        }
+
+        h2 {
+            color: #19365a;
+            font-size: 19px;
+            text-align: center;
+            margin: 32px 0 18px;
+        }
+
+        .branches {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 12px;
+        }
+
+        .branch {
+            min-width: 105px;
+            padding: 14px 17px;
+            text-align: center;
+            color: #294766;
+            background-color: #edf3f8;
+            border: 1px solid #d8e3ed;
+            border-bottom: 3px solid #35b3a5;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        .note {
+            margin-top: 30px;
+            padding: 15px 18px;
+            background-color: #f1f7f6;
+            border-left: 3px solid #35b3a5;
+        }
+
+        .note p {
+            margin: 0;
+            color: #52616d;
+            font-size: 14px;
+            line-height: 1.8;
+        }
+
+        .note strong {
+            color: #19365a;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="content">
+
+        <div class="eyebrow">LEARN • EXPLORE • GROW</div>
+
+        <h1>Welcome to Our Online Book Store</h1>
+
+        <div class="accent"></div>
+
+        <p class="intro">
+            This online book store is maintained by students of
+            PVP Siddhartha Institute of Technology. It offers a
+            catalogue of academic books across different engineering
+            branches, helping students find resources for their studies.
+        </p>
+
+        <h2>Explore Our Branches</h2>
+
+        <div class="branches">
+            <div class="branch">CSE</div>
+            <div class="branch">ECE</div>
+            <div class="branch">EEE</div>
+            <div class="branch">Civil</div>
+        </div>
+
+        <div class="note">
+            <p>
+                <strong>Start exploring:</strong>
+                Open the catalogue to browse books, register for an
+                account, or visit your cart using the navigation menu.
+            </p>
+        </div>
+
+    </div>
+
 </body>
 </html>
